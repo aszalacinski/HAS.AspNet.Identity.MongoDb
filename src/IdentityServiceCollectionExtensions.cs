@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 
-namespace HAS.AspNet.Identity.MongoDb
+namespace Microsoft.AspNetCore.Identity.MongoDb
 {
     public static class IdentityServiceCollectionExtensions
     {
