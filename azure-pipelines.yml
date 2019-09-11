@@ -20,6 +20,7 @@ steps:
     command: 'build'
 
 - task: DotNetCoreCLI@2
+  displayName: 'dotnet pack'
   inputs:
     command: 'pack'
     packagesToPack: '**/*.csproj'
