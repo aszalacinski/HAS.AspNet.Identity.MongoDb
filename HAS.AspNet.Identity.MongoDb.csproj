@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://dev.azure.com/happyappsoftware/HAS.AspNet.Identity.MongoDb</RepositoryUrl>
+    <Description>HAS implementation of a MongoDB repository to support ASP.NET Identity</Description>
+    <Company>Happy App Software</Company>
+    <Product>Happy App Software Login</Product>
+    <Authors>Aarron Szalacinski</Authors>
   </PropertyGroup>
 
   <ItemGroup>
